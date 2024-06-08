@@ -1,12 +1,9 @@
-# Estimasi Nilai Pi dengan Metode Integrasi Reimann
+# Estimasi Nilai Pi dengan Metode Integrasi Trapezoid
 
 ## Deskripsi Proyek
 
-Proyek ini bertujuan untuk menghitung nilai pi (π) secara numerik menggunakan metode integrasi Reimann pada fungsi f(x)=4/(1+x^2 )​ dari 0 sampai 1. Metode ini diterapkan dengan berbagai jumlah subinterval (N), dan hasilnya dianalisis berdasarkan galat RMS (Root Mean Square) serta waktu eksekusi.
+Proyek ini bertujuan untuk menghitung nilai pi secara numerik menggunakan metode integrasi trapezoid pada fungsi f(x)=4/(1+x^2)Implementasi dilakukan dengan bahasa pemrograman Python, dan hasilnya dievaluasi dengan menghitung galat RMS serta waktu eksekusi untuk berbagai nilai N.
 
-## Struktur Proyek
+## Ringkasan
 
-- reimann_integration.py: Kode sumber untuk menghitung nilai pi menggunakan metode integrasi Reimann.
-- results.txt: Hasil pengujian untuk berbagai nilai N termasuk estimasi nilai pi, galat RMS, dan waktu eksekusi.
-- analysis.docx & analysis.pdf: Dokumen yang menjelaskan alur kode, hasil pengujian, dan analisis hasil.
-- README.md: Penjelasan mengenai proyek ini.
+Proyek ini menghitung integral dari fungsi f(x)=4/(1+x^2) pada interval [0, 1] untuk mendekati nilai pi. Kami menggunakan metode integrasi trapezoid dengan berbagai nilai N (10, 100, 1000, dan 10000) untuk melihat pengaruh ukuran segmen terhadap akurasi dan waktu eksekusi.
